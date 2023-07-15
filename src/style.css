@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    display: flex;
+    /* height: 730px; */
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(177,217,219) ;
+}
+.main img {
+    position: fixed;
+    top: 200px;
+    left: 100px;
+}
+.left {
+    /* background-color:rgb(177,217,219) ; */
+    width: 45%;
+}
+.left p {
+    color: white;
+    font-size: 20px ;
+    font-family:sans-serif;
+    /* font-weight: 600; */
+    /* border: 1px solid red; */
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.right {
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: white;
+    height: 100%;
+}
+.right h1 {
+    /* border: 1px solid red; */
+    padding-right: 350px;
+    font-family: sans-serif;
+}
+form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    /* height: 60%; */
+    /* border: 1px solid blue; */
+}
+form input {
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+form .pass {
+    background-image: url(./Images/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 390px 10px;
+}
+form button {
+    background-color: rgb(124,210,215);
+    border: none;
+    width: 80%;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.redColor {
+    color: red;
+    font-size: 18px;
+}
+.greenColor {
+  color: rgb(124,210,215);
+  font-size: 18px;
+}
+.btn-sec {
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    /* border: 1px solid blue; */
+    margin-right: 60px;
+}
+.btn {
+    border: 0.5px solid grey;
+    height: 50px;
+    background-color: transparent;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+.btn img {
+    padding-left: 500px;
+}
+#google {
+    background-image: url(./Images/search.png);
+    background-repeat: no-repeat;
+    background-position: 10px 12px;
+}
+#facebook {
+    background-image: url(./Images/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 10px 12px;
+}
+.btn span {
+    margin-left: 25px;
+}
